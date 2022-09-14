@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+section {
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30rem;
+  position: relative;
+
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
+
+.box1 {
+  background-color: green;
+  left: 0px;
+  animation-name: kub1;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+}
+@keyframes kub1 {
+  0% {
+    bottom: 0px;
+    transform: rotateY(90deg);
+  }
+
+
+  100% {
+    bottom: 200px;
+    
+  }
+}
+
+
+.box2 {
+  background-color: red;
+  left: 210px;
+  animation-name: kub2;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.2s;
+}
+@keyframes kub2 {
+  0% {
+    bottom: 0px;
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    bottom: 200px;
+  }
+}
+
+
+
+.box3 {
+  background-color: rgb(21, 30, 215);
+  right: 0px;
+  animation-name: kub3;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.5s;
+}
+@keyframes kub3 {
+  0% {
+    bottom: 0px;
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    bottom: 200px;
+  }
+}
+
+
+
+.box4 {
+  background-color: rgb(252, 139, 9);
+  right: 210px;
+  animation-name: kub4; 
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.4s;
+
+}
+@keyframes kub4 {
+  0% {
+    bottom: 0px;
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    bottom: 200px;
+  }
+}
+
+
+
+
+.box5 {
+  background-color: rgb(243, 0, 230);
+  animation-name: kub5;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.3s;
+}
+@keyframes kub5 {
+  0% {
+    bottom: 0px;
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    bottom: 200px;
+  }
+}
